@@ -1,0 +1,55 @@
+@media (min-width: 1024px) {
+  p {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 900;
+    text-decoration: underline;
+    text-underline-offset: 0.4rem;
+    margin-bottom: 1rem;
+  }
+  .exp-details > h1 {
+    margin-bottom: 1rem;
+  }
+  /* Images */
+
+  .profile-pic {
+    width: 7rem;
+    height: 7rem;
+  }
+  .icon {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .as-body {
+    min-height: 50vh;
+    margin: 0;
+    justify-content: center;
+  }
+  .div-1 {
+    flex-direction: row;
+    align-items: top;
+    /* background-color: red; */
+    margin-right: 4rem;
+    /* padding: 0; */
+    margin-left: 4rem;
+    max-width: 90rem;
+  }
+  .experience {
+    gap: 2rem;
+  }
+
+  footer {
+    display: none;
+  }
+}
