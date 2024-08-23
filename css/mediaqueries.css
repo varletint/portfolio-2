@@ -78,6 +78,7 @@
       --angle: 360deg;
     }
   }
+
   .div-1 {
     flex-direction: row;
     align-items: top;
